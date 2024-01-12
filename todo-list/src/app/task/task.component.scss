@@ -1,0 +1,41 @@
+.task {
+    display: flex;
+    padding: 10px;
+
+    &.done {
+        .label{
+            .text{
+                text-decoration: line-through;
+            }
+        }
+    }
+
+    &:hover {
+        .delete{
+            display: flex;
+        }
+    }
+
+    .label {
+        display: flex;
+        padding: 8px 15px;
+        cursor: pointer;
+        input {
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+        .text{
+            font-family: Arial;
+        }
+    }
+
+    .delete{
+        margin-left: 10px;
+        align-items: center;
+        padding: 8px 10px;
+        font-family: arial;
+        display: none;
+        color: red;
+        cursor: pointer;
+    }
+}

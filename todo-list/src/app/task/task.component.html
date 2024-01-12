@@ -1,0 +1,7 @@
+<div class="task" [ngClass] = "{done}">
+    <div class="label">
+        <input type="checkbox" (change)="onChange($event)" [checked]="done">
+        <div class="text" [appStrike] = "done">{{ text }}</div>
+    </div>
+    <div class="delete">X</div>
+</div>

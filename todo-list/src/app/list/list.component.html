@@ -1,0 +1,7 @@
+<div class="list">
+    <app-task *ngFor="let task of list; index as i" 
+    [text]="task.text"
+    [done]="task.done"
+    (emitter)="emitValue($event, i)"
+    ></app-task>
+</div>

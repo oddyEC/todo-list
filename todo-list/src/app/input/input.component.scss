@@ -1,0 +1,19 @@
+.inputWrapper{
+    padding: 0 10px;
+    input {
+        height: 30px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        width: 400px;
+        padding: 1px 15px;
+    }
+    button{
+        height: 36px;
+        background: black;
+        color: white;
+        border: none;
+        padding: 4px 15px;
+        border-top-right-radius: 20px ;
+        border-bottom-right-radius: 20px ;
+    }
+}
